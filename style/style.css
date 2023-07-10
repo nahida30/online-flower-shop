@@ -210,11 +210,62 @@
    height: 250px;
 }
 
-/* .deals{
-    margin-top: 50px;
-    width: 960px;
-    height: 30vh;
-    background-color: #E55473;
-} */
+
 
 /* instagram section ends */
+
+/* deal section starts */
+.deals{
+    margin:auto;
+    width: 960px;
+    height: 60vh;
+}
+
+.deals-container{
+    /* margin-top: 50px; */
+    margin:auto;
+    width: 960px;
+    height: 40vh;
+    /* background-color: #E55473; */
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+
+}
+.deal-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.deal-heading{
+    font-size: 40px;
+    color: #272727;
+    font-family: Lato;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.deal-description{
+    font-size: 18px;
+    color: rgb(70, 60, 60) ;
+    font-family: Lato;
+}
+input{
+    width: 60%;
+}
+#form-email{
+    padding: 20px;
+    border: 2px solid #E55473;
+    border-radius: 8px;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px 121px 200px;
+}
+.form a{
+    text-decoration: none;
+}
+/* deal section ends */
