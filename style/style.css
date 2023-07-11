@@ -44,8 +44,10 @@
     border-radius: 8px;
     color: #fff;
     font-size: 18px;
+    cursor: pointer;
 
 }
+
 
 /* .head-img{
     padding: 75px 80px 0 100px;
@@ -130,7 +132,7 @@ img{
     width: 960px;
     height: 40vh;
     /* background-color: #ab2f46; */
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("../Flower Asset/flower.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url("../Flower Asset/flower.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,6 +161,8 @@ img{
     font-size: 20px;
     width: 800px;
     padding-bottom: 10px;
+    font-weight: 400;
+    /* text-shadow: 0px 1px 1.2px white; */
 }
 .gift-btn{
     padding: 8px 30px;
@@ -170,6 +174,9 @@ img{
     background-color: #E55473;
     color: #fff;
 }
+
+/* my section ends */
+
 /* hot-deal section starts */
 .hot-deal{
     margin-top: 70px;
@@ -354,5 +361,6 @@ input{
 }
 
 .copyright{
+    font-family: Lato;
     color: #937575;
 }
