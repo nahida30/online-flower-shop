@@ -217,8 +217,8 @@ img{
     padding-right: 250px;
 }
 .hot-deal-image img{
-    height: 300px;
-    padding-top: 60px;
+    height: 330px;
+    padding-top: 20px;
 }
 /* hot-deal section ends */
 
@@ -316,6 +316,7 @@ input{
     padding: 20px;
     border: 2px solid #E55473;
     border-radius: 8px;
+    font-size: 18px;
 }
 
 .form{
